@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact – Tatiana Rosá</title>
+  <meta name="description" content="Contact information for Tatiana Rosá.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Tatiana Rosá</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container section">
+    <h1>Contact</h1>
+    <div class="card">
+      <p><strong>Email:</strong> tatiana.rosa@uc.cl</p>
+      <p><strong>Office:</strong> Campus San Joaquín, Pontificia Universidad Católica de Chile, Santiago de Chile.</p>
+      <p>Happy to share working papers and ongoing projects upon request.</p>
+    </div>
+  </div>
+  <div class="container footer">© {year} Tatiana Rosá.</div>
+  <script>
+    document.querySelector('.footer').innerHTML = document.querySelector('.footer').innerHTML.replace('{year}', new Date().getFullYear());
+  </script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CV – Tatiana Rosá</title>
+  <meta name="description" content="Curriculum Vitae of Tatiana Rosá.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Tatiana Rosá</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a class="active" href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container section">
+    <h1>Curriculum Vitae</h1>
+    <div class="card">
+      <p>You can download my latest CV here:</p>
+      <p><a class="btn" href="https://www.dropbox.com" target="_blank" rel="noopener">Download CV (PDF)</a></p>
+      <p>If you share a direct link to your PDF, I can embed it on this page.</p>
+    </div>
+  </div>
+  <div class="container footer">© {year} Tatiana Rosá.</div>
+  <script>
+    document.querySelector('.footer').innerHTML = document.querySelector('.footer').innerHTML.replace('{year}', new Date().getFullYear());
+  </script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tatiana Rosá – Economist</title>
+  <meta name="description" content="Tatiana Rosá – Senior Economist at CAF. Research in Empirical IO, Public Policies, Innovation, and Labour Economics.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Tatiana Rosá</div>
+      <div class="menu">
+        <a class="active" href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container">
+      <h1 class="title">Tatiana Rosá García</h1>
+      <p class="subtitle">Senior Economist, Research Department, CAF – Development Bank of Latin America and the Caribbean</p>
+      <div class="grid grid-2">
+        <div class="card">
+          <h2>Welcome</h2>
+          <p>I am a Senior Economist at the research department at CAF Development Bank.</p>
+          <p>I obtained my Ph.D. in Economics at <a href="https://www.cemfi.es/" target="_blank" rel="noopener">CEMFI</a> in 2020.</p>
+          <p>My research interests are in the fields of Empirical IO, Public Policies, Innovation, and Labour Economics.</p>
+          <p><a class="btn" href="research.html">See my research</a></p>
+        </div>
+        <div class="card">
+          <h2>Short links</h2>
+          <ul>
+            <li><a href="research.html">Working papers & projects</a></li>
+            <li><a href="cv.html">Curriculum Vitae</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container section">
+    <div class="card">
+      <h2>News</h2>
+      <p>R&amp;R at RAND Journal: “Cooperation and Competition: The Case of Innovation in the Telecommunications Sector”.</p>
+    </div>
+  </div>
+  <div class="container footer">
+    © {year} Tatiana Rosá. All rights reserved.
+  </div>
+  <script>
+    // update year
+    document.querySelector('.footer').innerHTML = document.querySelector('.footer').innerHTML.replace('{year}', new Date().getFullYear());
+  </script>
+</body>
+</html>
+
+# Tatiana Rosá – Academic Website (Static)
+
+This folder contains a simple, professional academic website ready for **GitHub Pages**.
+
+## Publish on GitHub Pages (5 steps)
+1. Create a new repo on GitHub, e.g. `tatianarosa.github.io` (or any name).
+2. Upload all the files in this folder to the repo (drag & drop).
+3. If the repo is _not_ named `tatianarosa.github.io`, go to **Settings → Pages** and set:
+   - **Source**: Deploy from a branch
+   - **Branch**: `main` (root)
+4. Wait ~1–2 minutes. Your site will be live at either:
+   - `https://<your-username>.github.io/` (if the repo is that name), or
+   - `https://<your-username>.github.io/<repo-name>/`
+5. Update links in `cv.html` and `research.html` to your actual Dropbox/NBER PDF URLs (or host the PDFs in this repo under `/files/`).
+
+## Editing
+- Change text in the HTML files as needed.
+- Styles live in `styles.css`.
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research – Tatiana Rosá</title>
+  <meta name="description" content="Research by Tatiana Rosá on Empirical IO, public policies, innovation, labour economics.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Tatiana Rosá</div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a class="active" href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container section">
+    <h1>Research</h1>
+
+    <div class="card">
+      <h2><a href="https://www.dropbox.com" target="_blank" rel="noopener">Cooperation and Competition: The Case of Innovation in the Telecommunications Sector</a> <span class="badge">R&amp;R at RAND</span></h2>
+      <p>This paper proposes a novel framework for analyzing collaborative innovation that captures both competition and cooperation among firms, and examines the impact of private appropriation through IP rights licensing on firms' incentives to innovate and on the overall outcome.</p>
+      <p>I show that when developing technology together firms compete and cooperate, and that the intensity of each force depends on their technological similarity and business model. To study the net effect of these forces in equilibrium, I focus on the standardization of mobile telecommunications technologies and use a novel dataset on the development of 3G and 4G standards to estimate my model. I show that enforcing royalty-free clauses reduces the participation and contributions of firms, delaying the completion of the initial release of 4G by almost one year beyond the almost 3 years it took to develop.</p>
+    </div>
+
+    <div class="card">
+      <h2><a href="https://www.dropbox.com" target="_blank" rel="noopener">Complementarities in Retirement Decisions Among European Couples</a></h2>
+      <p><em>Joint with Siqi Wei.</em> More than 30% of spouses retire within a year of each other in Europe, despite their age difference. This suggests the existence of complementarities in spouses' retirement decisions. At the same time, almost 60% of Europeans retire before official retirement age, usually with a penalty in pension wealth.</p>
+      <p>Using data from SHARE we estimate an interdependent duration model allowing for early and joint retirement with positive probability. Empirically we find that early retirement and joint retirement are economically important for European couples. Ignoring the early retirement penalty in pensions' wealth leads to an underestimation of the complementarities in spouses' retirement decisions.</p>
+    </div>
+
+    <div class="card">
+      <h2><a href="https://www.dropbox.com" target="_blank" rel="noopener">Schooling and Intergenerational Mobility: Consequences of Expanding Higher Education Institutions</a></h2>
+      <p><em>Joint with N. Katzkowicz, V. Lavy and M. Querejeta (Submitted).</em> Poor post-secondary education infrastructure and opportunities partly explain the low higher education rates in developing countries. This paper estimates the effect of a program that improved post-secondary education infrastructure by building many university campuses across Uruguay.</p>
+      <p>By lowering the distance to a university campus, the program successfully increased university enrollment—particularly of less privileged first‑generation students—and reduced spatial inequality, without lowering completion rates. It also increased high school attendance and completion rates and the proportion of educated workers in the affected localities.</p>
+      <p><a href="https://www.nber.org" target="_blank" rel="noopener">NBER working paper</a></p>
+    </div>
+  </div>
+
+  <div class="container footer">
+    © {year} Tatiana Rosá.
+  </div>
+  <script>
+    document.querySelector('.footer').innerHTML = document.querySelector('.footer').innerHTML.replace('{year}', new Date().getFullYear());
+  </script>
+</body>
+</html>
+
+/* Minimal, professional academic theme */
+:root{
+  --bg:#ffffff;
+  --fg:#0f172a;          /* slate-900 */
+  --muted:#475569;       /* slate-600 */
+  --accent:#2563eb;      /* blue-600 */
+  --accent-2:#0ea5e9;    /* sky-500 */
+  --border:#e2e8f0;      /* slate-200 */
+  --card:#f8fafc;        /* slate-50 */
+  --shadow:0 6px 20px rgba(15,23,42,.08);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.nav{position:sticky;top:0;background:rgba(255,255,255,.9);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--border);z-index:10}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px;max-width:1100px;margin:0 auto}
+.brand{font-weight:700;letter-spacing:.2px}
+.menu{display:flex;gap:18px;flex-wrap:wrap}
+.menu a{padding:8px 10px;border-radius:8px}
+.menu a.active,.menu a:hover{background:var(--card)}
+.hero{padding:64px 24px 24px;background:linear-gradient(180deg,#f8fafc,transparent)}
+.title{font-size:36px;line-height:1.2;margin:0 0 8px}
+.subtitle{font-size:18px;color:var(--muted);margin:0 0 24px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:var(--shadow);}
+.grid{display:grid;gap:20px}
+.grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.section{padding:24px}
+.footer{border-top:1px solid var(--border);margin-top:40px;padding:24px;color:var(--muted);font-size:14px}
+.btn{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:10px}
+.btn:hover{background:var(--accent-2);text-decoration:none}
+h2{margin-top:0}
+ul{margin:0 0 0 18px}
+li{margin:8px 0}
+.badge{display:inline-block;background:#e2e8f0;color:#0f172a;padding:2px 8px;border-radius:999px;font-size:12px;margin-left:8px}
